@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=655
+
+7-May-2004 Note:  I have recently learned that this syntax is redundant.  You can get the same functionality with esqlc.vim in the standard distribution.
+
+This is a start towards a customization of the C++ syntax, for code that uses the Oracle Pro*C/C++ precompiler code.  Essentially it loads up the C++ syntax file, and then does additional highlighting of text that begins with EXEC SQL.
+
+
