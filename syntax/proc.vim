@@ -23,7 +23,7 @@ endif
 
 " Oracle Pro C/C++ extensions...so far we just just highlight 
 " EXEC SQL statements.
-syn region procStatement         start="EXEC SQL" end=";"
+syn region procStatement         start="EXEC SQL" end="DECLARE *SECTION *;\|END-EXEC *;"
 
 " Default highlighting
 if version >= 508 || !exists("did_proc_syntax_inits")
